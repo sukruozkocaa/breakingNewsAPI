@@ -8,11 +8,13 @@
 import Foundation
 
 struct ArticleList : Decodable{
-    let articles : [Article]
+    let articles : [Article]!
 }
 
 struct Article:Decodable {
     var author : String?
     var title : String?
     var description : String?
+    var urlToImage : String?
+    var url : String?
 }
