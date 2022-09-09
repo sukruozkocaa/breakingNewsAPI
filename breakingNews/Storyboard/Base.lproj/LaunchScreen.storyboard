@@ -16,9 +16,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bi_haber" translatesAutoresizingMaskIntoConstraints="NO" id="ecb-i9-Fsy">
-                                <rect key="frame" x="127" y="337" width="161" height="158"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bi_haber" translatesAutoresizingMaskIntoConstraints="NO" id="ecb-i9-Fsy">
+                                <rect key="frame" x="126.5" y="369" width="161" height="158"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="158" id="MXp-ZY-CbO"/>
+                                    <constraint firstAttribute="width" constant="161" id="cwi-Bs-Dqc"/>
+                                </constraints>
                             </imageView>
                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" animating="YES" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="kwb-lp-0FZ">
                                 <rect key="frame" x="151" y="562" width="113" height="137"/>
@@ -27,6 +30,12 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemPinkColor"/>
+                        <constraints>
+                            <constraint firstItem="ecb-i9-Fsy" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Bd3-uu-Bo3"/>
+                            <constraint firstItem="ecb-i9-Fsy" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="mdk-DF-uX7"/>
+                            <constraint firstItem="ecb-i9-Fsy" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="q29-wI-Oe5"/>
+                            <constraint firstItem="ecb-i9-Fsy" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="x93-4r-6Ti"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
