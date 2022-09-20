@@ -21,13 +21,19 @@
 		35353FED28C08D60007ACD41 /* NewsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35353FEC28C08D60007ACD41 /* NewsDetailViewController.swift */; };
 		3556BCCF28BF956D000EC16D /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 3556BCCE28BF956D000EC16D /* SDWebImage */; };
 		3556BCD128BF956D000EC16D /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3556BCD028BF956D000EC16D /* SDWebImageMapKit */; };
+		3556C37E28D3560E00C9207C /* ModernAVPlayer in Frameworks */ = {isa = PBXBuildFile; productRef = 3556C37D28D3560E00C9207C /* ModernAVPlayer */; };
+		3556C38028D3560E00C9207C /* RxModernAVPlayer in Frameworks */ = {isa = PBXBuildFile; productRef = 3556C37F28D3560E00C9207C /* RxModernAVPlayer */; };
+		356C880628CF01C500FCB17E /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 356C880528CF01C500FCB17E /* SDWebImage */; };
+		356C881528CF169600FCB17E /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 356C881428CF169600FCB17E /* SDWebImage */; };
 		356DE7BC28C140C9005E49F8 /* SourceWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356DE7BB28C140C9005E49F8 /* SourceWebViewController.swift */; };
 		357420C328C5DBAD003ECFE5 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 357420C228C5DBAD003ECFE5 /* SDWebImage */; };
 		3581C40D28C9317A004EC16C /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 3581C40C28C9317A004EC16C /* SDWebImage */; };
 		3581C40F28C9317A004EC16C /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3581C40E28C9317A004EC16C /* SDWebImageMapKit */; };
 		35A0EC5C28C86EE600CA1C85 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A0EC5B28C86EE600CA1C85 /* SecondViewController.swift */; };
+		35B1BF4D28D05C480043F8CF /* GlobalNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B1BF4C28D05C480043F8CF /* GlobalNewsViewController.swift */; };
 		35BC8EB328C9CE75005ADBE8 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BC8EB128C9CE75005ADBE8 /* ImageCollectionViewCell.swift */; };
 		35BC8EB428C9CE75005ADBE8 /* ImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35BC8EB228C9CE75005ADBE8 /* ImageCollectionViewCell.xib */; };
+		35DB9CFF28CF62D5003A3C28 /* HeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DB9CFE28CF62D5003A3C28 /* HeaderCollectionReusableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,8 +53,10 @@
 		35353FEC28C08D60007ACD41 /* NewsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailViewController.swift; sourceTree = "<group>"; };
 		356DE7BB28C140C9005E49F8 /* SourceWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceWebViewController.swift; sourceTree = "<group>"; };
 		35A0EC5B28C86EE600CA1C85 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		35B1BF4C28D05C480043F8CF /* GlobalNewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalNewsViewController.swift; sourceTree = "<group>"; };
 		35BC8EB128C9CE75005ADBE8 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
 		35BC8EB228C9CE75005ADBE8 /* ImageCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageCollectionViewCell.xib; sourceTree = "<group>"; };
+		35DB9CFE28CF62D5003A3C28 /* HeaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCollectionReusableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,11 +64,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				356C880628CF01C500FCB17E /* SDWebImage in Frameworks */,
 				357420C328C5DBAD003ECFE5 /* SDWebImage in Frameworks */,
 				3581C40F28C9317A004EC16C /* SDWebImageMapKit in Frameworks */,
+				356C881528CF169600FCB17E /* SDWebImage in Frameworks */,
 				3556BCD128BF956D000EC16D /* SDWebImageMapKit in Frameworks */,
 				3581C40D28C9317A004EC16C /* SDWebImage in Frameworks */,
 				3556BCCF28BF956D000EC16D /* SDWebImage in Frameworks */,
+				3556C38028D3560E00C9207C /* RxModernAVPlayer in Frameworks */,
+				3556C37E28D3560E00C9207C /* ModernAVPlayer in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +160,7 @@
 				35353FEC28C08D60007ACD41 /* NewsDetailViewController.swift */,
 				3504ECE52832652C00998A72 /* ViewController.swift */,
 				35A0EC5B28C86EE600CA1C85 /* SecondViewController.swift */,
+				35B1BF4C28D05C480043F8CF /* GlobalNewsViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -167,6 +180,7 @@
 				35BC8EB228C9CE75005ADBE8 /* ImageCollectionViewCell.xib */,
 				350EB17528CA19560015E17B /* DataCollectionViewCell.swift */,
 				350EB17628CA19560015E17B /* DataCollectionViewCell.xib */,
+				35DB9CFE28CF62D5003A3C28 /* HeaderCollectionReusableView.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -193,6 +207,10 @@
 				357420C228C5DBAD003ECFE5 /* SDWebImage */,
 				3581C40C28C9317A004EC16C /* SDWebImage */,
 				3581C40E28C9317A004EC16C /* SDWebImageMapKit */,
+				356C880528CF01C500FCB17E /* SDWebImage */,
+				356C881428CF169600FCB17E /* SDWebImage */,
+				3556C37D28D3560E00C9207C /* ModernAVPlayer */,
+				3556C37F28D3560E00C9207C /* RxModernAVPlayer */,
 			);
 			productName = breakingNews;
 			productReference = 3504ECDE2832652C00998A72 /* breakingNews.app */;
@@ -226,6 +244,9 @@
 				3556BCCD28BF956D000EC16D /* XCRemoteSwiftPackageReference "SDWebImage" */,
 				357420C128C5DBAD003ECFE5 /* XCRemoteSwiftPackageReference "SDWebImage" */,
 				3581C40B28C9317A004EC16C /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				356C880428CF01C500FCB17E /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				356C881328CF169600FCB17E /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				3556C37C28D3560E00C9207C /* XCRemoteSwiftPackageReference "ModernAVPlayer" */,
 			);
 			productRefGroup = 3504ECDF2832652C00998A72 /* Products */;
 			projectDirPath = "";
@@ -260,12 +281,14 @@
 				3504ECFC2832678200998A72 /* Article.swift in Sources */,
 				3504ECE62832652C00998A72 /* ViewController.swift in Sources */,
 				3504ECE22832652C00998A72 /* AppDelegate.swift in Sources */,
+				35DB9CFF28CF62D5003A3C28 /* HeaderCollectionReusableView.swift in Sources */,
 				3504ED012832749600998A72 /* ArticleViewModel.swift in Sources */,
 				35BC8EB328C9CE75005ADBE8 /* ImageCollectionViewCell.swift in Sources */,
 				356DE7BC28C140C9005E49F8 /* SourceWebViewController.swift in Sources */,
 				350EB17728CA19560015E17B /* DataCollectionViewCell.swift in Sources */,
 				35353FED28C08D60007ACD41 /* NewsDetailViewController.swift in Sources */,
 				3504ECFF283268EB00998A72 /* Webservice.swift in Sources */,
+				35B1BF4D28D05C480043F8CF /* GlobalNewsViewController.swift in Sources */,
 				3504ECE42832652C00998A72 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -494,6 +517,30 @@
 				kind = branch;
 			};
 		};
+		3556C37C28D3560E00C9207C /* XCRemoteSwiftPackageReference "ModernAVPlayer" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/noreasonprojects/ModernAVPlayer";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		356C880428CF01C500FCB17E /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		356C881328CF169600FCB17E /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 		357420C128C5DBAD003ECFE5 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
@@ -522,6 +569,26 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 3556BCCD28BF956D000EC16D /* XCRemoteSwiftPackageReference "SDWebImage" */;
 			productName = SDWebImageMapKit;
+		};
+		3556C37D28D3560E00C9207C /* ModernAVPlayer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3556C37C28D3560E00C9207C /* XCRemoteSwiftPackageReference "ModernAVPlayer" */;
+			productName = ModernAVPlayer;
+		};
+		3556C37F28D3560E00C9207C /* RxModernAVPlayer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3556C37C28D3560E00C9207C /* XCRemoteSwiftPackageReference "ModernAVPlayer" */;
+			productName = RxModernAVPlayer;
+		};
+		356C880528CF01C500FCB17E /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3556BCCD28BF956D000EC16D /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		356C881428CF169600FCB17E /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3556BCCD28BF956D000EC16D /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
 		};
 		357420C228C5DBAD003ECFE5 /* SDWebImage */ = {
 			isa = XCSwiftPackageProductDependency;

@@ -1,6 +1,24 @@
 {
   "pins" : [
     {
+      "identity" : "modernavplayer",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/noreasonprojects/ModernAVPlayer",
+      "state" : {
+        "revision" : "ab16588b7b8e297255e2d8a7407eb89506af265b",
+        "version" : "1.7.3"
+      }
+    },
+    {
+      "identity" : "rxswift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ReactiveX/RxSwift.git",
+      "state" : {
+        "revision" : "cec68169a048a079f461ba203fe85636548d7a89",
+        "version" : "5.1.3"
+      }
+    },
+    {
       "identity" : "sdwebimage",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/SDWebImage/SDWebImage",

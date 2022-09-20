@@ -17,10 +17,16 @@ class SourceWebViewController: UIViewController {
         super.viewDidLoad()
     }
     override func viewDidAppear(_ animated: Bool) {
-        let urlString = url
-        let url = URL(string: urlString!)
-        let request = URLRequest(url: url!)
-        webView.load(request)
+      
+        let url = URL(string: url ?? "")
+        let request = URLRequest(url: (url!))
+        do {
+            try webView.load(request)
+        }
+        catch {
+            print("hata")
+        }
+    
     }
     
 }
